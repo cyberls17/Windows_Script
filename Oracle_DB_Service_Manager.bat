@@ -30,7 +30,7 @@ echo 4. Exit
 echo.
 set /p Input=Input Service Number: 
 
-if %Input% == "1" (
+if %Input% == 1 (
 	net start OracleServiceXE
 	net start OracleVssWriterXE
 	net start OracleOraDB21Home1TNSListener
